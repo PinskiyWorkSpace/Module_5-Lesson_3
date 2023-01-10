@@ -1,0 +1,20 @@
+.wrapper__list {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f4b7b6;
+    padding: 50px;
+}
+.list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.list__item {
+    padding: 20px;
+    
+}
+.list__item:nth-child(even) {
+    background-color:#3942ff;
+} 
+.list__item:nth-child(odd) {
+    background-color: #5f72ed;
+} 
